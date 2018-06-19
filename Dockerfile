@@ -38,6 +38,8 @@ RUN apt-get update --yes \
     ant \
 # Dependencies to execute Android builds
     openjdk-8-jdk \
+# Another MS tools
+    nuget \
  && rm -rf /var/lib/apt/lists/*
 
 
